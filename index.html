@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Color Shades Scale</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eaeaea;
+         padding: 30px;
+        }
+
+        h2 {
+            
+            color: #333;
+            text-align: center;
+        }
+
+        .scale {
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .row {
+            height: 40px;
+            display: flex;
+            align-items: center;
+            padding-left: 15px;
+            font-size: 14px;
+            color: white;
+        }
+
+        /* ALKALINE (TEAL → BLUE SHADES) */
+        .b14 { background-color: #004d40; }
+        .b13 { background-color: #00695c; }
+        .b12 { background-color: #00796b; }
+        .b11 { background-color: #00897b; }
+        .b10 { background-color: #26a69a; }
+        .b9  { background-color: #4db6ac; }
+        .b8  { background-color: #80cbc4; color: #000; }
+
+        /* NEUTRAL */
+        .neutral {
+            background-color: #7cb342;
+            color: #000;
+            font-weight: bold;
+        }
+
+        /* ACIDIC (YELLOW → ORANGE → RED) */
+        .p6 { background-color: #fff176; color: #000; }
+        .p5 { background-color: #ffd54f; color: #000; }
+        .p4 { background-color: #ffb74d; }
+        .p3 { background-color: #ff8a65; }
+        .p2 { background-color: #f4511e; }
+        .p1 { background-color: #d84315; }
+        .p0 { background-color: #b71c1c; }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Color Shade Scale (pH Scale)</h2>
+
+        <div class="scale">
+
+            <div class="row b14">14.0 VERY ALKALINE</div>
+            <div class="row b13">13.0</div>
+            <div class="row b12">12.0</div>
+            <div class="row b11">11.0</div>
+            <div class="row b10">10.0</div>
+            <div class="row b9">9.0</div>
+            <div class="row b8">8.0</div>
+
+            <div class="row neutral">7.0 NEUTRAL</div>
+
+            <div class="row p6">6.0</div>
+            <div class="row p5">5.0</div>
+            <div class="row p4">4.0</div>
+            <div class="row p3">3.0</div>
+            <div class="row p2">2.0</div>
+            <div class="row p1">1.0</div>
+            <div class="row p0">0.0 VERY ACIDIC</div>
+
+        </div>
+    </div>
+
+</body>
+</html>
